@@ -1,2 +1,2 @@
-# Calculadora-Sal-rio
+# Calculadora-Salario
 Calcular salário líquido através das tabelas de IRS
