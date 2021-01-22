@@ -8,11 +8,10 @@ function checked() {
 
 radio1.addEventListener("click", function () {
   checked();
-  location.href = "1.html"
-
+  location.href = "./1/1.html";
 });
 
 radio2.addEventListener("click", function () {
   checked();
-  location.href = '2.html'
+  location.href = "./2/2.html";
 });
