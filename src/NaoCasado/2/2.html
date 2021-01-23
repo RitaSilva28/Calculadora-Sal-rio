@@ -16,7 +16,7 @@
       crossorigin="anonymous"
     />
 
-    <link rel="stylesheet" href="/src/NaoCasado/def.css" />
+    <link rel="stylesheet" href="/src/naocasado/def.css" />
 
     <script src="./2.js" defer></script>
     <title>Calculadora Salário</title>
@@ -28,22 +28,32 @@
     </div>
 
     <div id="container-page-1">
-      <p>
-        POR FAVOR INTRODUZA <br />
-        O SEU NÚMERO DE DEPENDENTES
-      </p>
+      <p class="title-1">INTRODUZA O NÚMERO DE DEPENDENTES</p>
+
+      <input id="input-number" type="number" placeholder="Nº de Dependentes" />
+
+      <p class="title-2">INTRODUZA O SEU SALÁRIO BRUTO</p>
 
       <input
-        class="input-number"
+        id="input-number-salary"
         type="number"
-        placeholder="Nº de Dependentes"
+        placeholder="Salário Bruto"
       />
-      <input
-        id="submit-button-2"
-        class="input-submit"
-        type="button"
-        value="Submeter"
-      />
+
+      <div class="buttons-container">
+        <input
+          id="submit-button-2"
+          class="input-button"
+          type="button"
+          value="Submeter"
+        />
+        <input
+          id="clear-button-2"
+          class="input-button"
+          type="button"
+          value="LIMPAR"
+        />
+      </div>
     </div>
 
     <div class="home">
