@@ -15,7 +15,7 @@ body {
 }
 
 #container-page-1 {
-  height: 210px;
+  height: 325px;
   background-color: #fff;
   width: 70%;
   display: flex;
@@ -25,28 +25,46 @@ body {
   border-radius: 10px;
 }
 
-#container-page-1 p {
+.title-1 {
+  position: relative;
+  top: -20px;
   color: #001c44;
   font-weight: 800;
-  font-size: 30px;
+  font-size: 25px;
   text-align: center;
 }
 
-.input-number {
+.title-2 {
+  position: relative;
+  top: -40px;
+  color: #001c44;
+  font-weight: 800;
+  font-size: 25px;
+  text-align: center;
+}
+
+#input-number {
   height: 20px;
   width: 120px;
   position: relative;
-  bottom: 20px;
+  bottom: 30px;
   text-align: center;
 }
 
+#input-number-salary {
+  height: 20px;
+  width: 120px;
+  position: relative;
+  bottom: 50px;
+  text-align: center;
+}
 .input-submit {
   height: 30px;
   color: #fff;
   background: #001c44;
   width: 120px;
   position: relative;
-  bottom: 10px;
+  bottom: 20px;
   text-align: center;
   text-transform: uppercase;
   font-size: 15px;
@@ -67,6 +85,7 @@ input[type="number"] {
 
 .fa-home {
   color: #fff;
-  position: fixed;
-  bottom: 20px;
+  position: relative;
+  bottom: 0px;
+  margin-top: 40px;
 }
