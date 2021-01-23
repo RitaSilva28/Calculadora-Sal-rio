@@ -208,12 +208,29 @@ const taxaDeficienteDependentes_5mais = [
 ];
 
 const submitBtn1 = document.getElementById("submit-button-1");
+const clearBtn1 = document.getElementById('clear-button-1');
 
 submitBtn1.addEventListener("click", function () {
     calcularSalario();
-    let resultado = calcularSalario()
+    let resultado = calcularSalario();
     appendResultado(resultado);
+    submitBtn1.disabled = true;
 });
+
+
+clearBtn1.addEventListener('click', function () {
+    const dependentes = document.getElementById("input-number");
+
+    const salario = document.getElementById("input-number-salary");
+
+    dependentes.value = 0;
+    salario.value = 0;
+
+    location.reload();
+
+
+
+})
 
 function calcularSalario() {
     const dependentes = document.getElementById("input-number").value;
@@ -1154,17 +1171,12 @@ function calcularSalario() {
     return totalSalario;
 }
 
-
 function appendResultado(salario) {
+    console.log(salario);
 
-    console.log(salario)
+    const container = document.getElementById("container-page-1");
+    const salarioContainer = document.createElement("div");
+    salarioContainer.innerHTML = `<h3 style='margin:0px' > O seu salário corresponde a ${salario} € </h3>`;
 
-    const container = document.getElementById('container-page-1');
-    const salarioContainer = document.createElement('div');
-    salarioContainer.innerHTML = `<h3> O seu salário corresponde a ${salario} € </h3>`
-
-    container.appendChild(salarioContainer);
-
-
-
-};
+    container.append(salarioContainer);
+}
