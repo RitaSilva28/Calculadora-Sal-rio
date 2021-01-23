@@ -1,0 +1,23 @@
+{
+  "name": "y",
+  "version": "1.0.0",
+  "description": "Calcular salário líquido através das tabelas de IRS",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "prettier": "prettier --write ."
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/RitaSilva28/Calculadora-Salario.git"
+  },
+  "author": "Rita Silva",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/RitaSilva28/Calculadora-Salario/issues"
+  },
+  "homepage": "https://github.com/RitaSilva28/Calculadora-Salario#readme",
+  "dependencies": {
+    "prettier": "^2.2.1"
+  }
+}

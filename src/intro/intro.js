@@ -1,10 +1,10 @@
-const casadoBtn = document.getElementById('CasadoBtn');
-const solteiroBtn = document.getElementById('SolteiroBtn');
+const casadoBtn = document.getElementById("CasadoBtn");
+const NaoCasadoBtn = document.getElementById("NaoCasadoBtn");
 
-casadoBtn.addEventListener('click', function () {
-    location.href = './src/Casado/casado.html';
+casadoBtn.addEventListener("click", function () {
+  location.href = "./src/Casado/casado.html";
 });
 
-solteiroBtn.addEventListener('click', function () {
-    location.href = './src/Solteiro/solteiro.html'
-})
+NaoCasadoBtn.addEventListener("click", function () {
+  location.href = "./src/NaoCasado/naocasado.html";
+});
