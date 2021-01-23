@@ -58,7 +58,7 @@ body {
   bottom: 50px;
   text-align: center;
 }
-.input-submit {
+.input-button {
   height: 30px;
   color: #fff;
   background: #001c44;
@@ -87,5 +87,5 @@ input[type="number"] {
   color: #fff;
   position: relative;
   bottom: 0px;
-  margin-top: 40px;
+  margin-top: 80px;
 }
