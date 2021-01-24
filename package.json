@@ -16,7 +16,7 @@
   "bugs": {
     "url": "https://github.com/RitaSilva28/Calculadora-Salario/issues"
   },
-  "homepage": "https://github.com/RitaSilva28/Calculadora-Salario#readme",
+  "homepage": "https://github.com/RitaSilva28/Calculadora-Salario/index.html",
   "dependencies": {
     "prettier": "^2.2.1"
   }
