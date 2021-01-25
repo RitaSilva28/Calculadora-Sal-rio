@@ -1172,7 +1172,7 @@ function appendResultado(salario) {
 
   const container = document.getElementById("container-page-1");
   const salarioContainer = document.createElement("div");
-  salarioContainer.innerHTML = `<h3 style='margin:0px' > O seu salário corresponde a ${salario} € </h3>`;
+  salarioContainer.innerHTML = `<h3 style='margin:0px;color:#001c44 ' > O seu salário corresponde a <span style='color:#22BC00 '> ${salario} </span> € </h3>`;
 
   container.append(salarioContainer);
 }

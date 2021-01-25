@@ -5,6 +5,7 @@ body {
   justify-content: center;
   align-items: center;
   flex-direction: column;
+  text-align: center;
 }
 
 #title-box-1 {
@@ -26,21 +27,23 @@ body {
 }
 
 .title-1 {
-  position: relative;
+  
   top: -20px;
+ 
+}
+
+.titles{
+  position: relative;
   color: #001c44;
   font-weight: 800;
-  font-size: 25px;
+  font-size: 23px;
   text-align: center;
 }
 
 .title-2 {
-  position: relative;
+ 
   top: -40px;
-  color: #001c44;
-  font-weight: 800;
-  font-size: 25px;
-  text-align: center;
+  
 }
 
 #input-number {
@@ -83,9 +86,36 @@ input[type="number"] {
   -moz-appearance: textfield;
 }
 
+.home{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  top:80px;
+}
+
 .fa-home {
   color: #fff;
-  position: relative;
-  bottom: 0px;
-  margin-top: 80px;
+
+}
+
+@media only screen and (max-width: 833px) {
+
+  #title-box-1 h1{
+    font-size:50px;
+  }
+
+  #container-page-1 {
+    height: 340px;
+    background-color: #fff;
+    width: 87%;
+  }
+
+  .home{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    top:50px;
+  }
 }

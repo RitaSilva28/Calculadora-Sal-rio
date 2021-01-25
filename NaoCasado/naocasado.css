@@ -109,6 +109,8 @@ input:checked + .radio__control::before {
 
   #container{
     width:85%;
+    height: 210px;
+
   }
 
   #container h1{
