@@ -5,4 +5,32 @@ body {
   justify-content: center;
   align-items: center;
   flex-direction: column;
+  text-align: center;
+}
+
+.build{
+  display: flex;
+  align-items: center;
+justify-content: center;
+position: relative;
+top: 400px;
+}
+
+.build i{
+  color: #fff;
+  margin-left: 20px;
+}
+
+h1{
+  color:#fff;
+  text-transform: uppercase;
+
+}
+
+@media only screen and (max-width: 833px) {
+
+  .build{
+
+  top: 300px;
+  }
 }
