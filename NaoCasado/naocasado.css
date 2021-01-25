@@ -5,6 +5,7 @@ body {
   justify-content: center;
   align-items: center;
   flex-direction: column;
+  text-align:center
 }
 #title-box {
   color: white;
@@ -85,8 +86,37 @@ input:checked + .radio__control::before {
   display: flex;
 }
 
+.home{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  top:80px;
+}
+
 .fa-home {
   color: #fff;
-  position: fixed;
-  bottom: 20px;
+
+}
+
+
+@media only screen and (max-width: 833px) {
+
+
+  #title-box {
+   font-size:25px;
+  }
+
+  #container{
+    width:85%;
+  }
+
+  #container h1{
+    font-size: 25px;
+    position: relative;
+    top:-20px;
+  }
+
+ 
+
 }
