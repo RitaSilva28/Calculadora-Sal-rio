@@ -64,10 +64,14 @@ h1{
 
 }
 
-@media only screen and (max-width: 833px) {
 
-  .build{
 
-  top: 300px;
+  @media only screen and (max-width: 833px) {
+
+
+    #title-box {
+     font-size:25px;
+    }
+  
   }
-}
+
