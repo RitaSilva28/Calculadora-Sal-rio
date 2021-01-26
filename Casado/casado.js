@@ -7,5 +7,5 @@ titularBtn.addEventListener("click", function () {
 });
 
 titularesBtn.addEventListener("click", function () {
-    location.href = "Titulares/2titulares.html";
+    location.href = "Titulares/titulares.html";
 });

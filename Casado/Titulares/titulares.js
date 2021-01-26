@@ -7,10 +7,10 @@ const radio2 = document.getElementById("inlineRadio2");
 
 radio1.addEventListener("click", function () {
 
-  location.href = "1/1.html";
+    location.href = "1/titulares1.html";
 });
 
 radio2.addEventListener("click", function () {
 
-  location.href = "2/2.html";
+    location.href = "2/titulares2.html";
 });
