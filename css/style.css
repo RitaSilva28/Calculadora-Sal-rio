@@ -20,7 +20,7 @@ body {
   height: 250px;
   background-color: #fff;
   color: #001c44;
-  width: 70%;
+  width: 50%;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -70,5 +70,11 @@ form input {
   #title-box {
    font-size:25px;
   }
+
+  #intro-box {
+
+    width:65%;
+
+}
 
 }
