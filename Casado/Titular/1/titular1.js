@@ -1,5 +1,4 @@
-//Taxas Não casado Deficiente 0 Dependentes
-const taxaDeficienteDependentes_0 = [
+const taxaDependentes_0 = [
 
     0.0,
     0.8,
@@ -34,9 +33,8 @@ const taxaDeficienteDependentes_0 = [
 
 ];
 
-//Taxas Não casado Deficiente 1 Dependente
 
-const taxaDeficienteDependentes_1 = [
+const taxaDependentes_1 = [
     0.0,
     0.0,
     1.0,
@@ -69,7 +67,7 @@ const taxaDeficienteDependentes_1 = [
 
 ];
 
-const taxaDeficienteDependentes_2 = [
+const taxaDependentes_2 = [
     0.0,
     0.0,
     0.2,
@@ -102,9 +100,8 @@ const taxaDeficienteDependentes_2 = [
 
 ];
 
-//Taxas Não casado Deficiente 3 Dependentes
 
-const taxaDeficienteDependentes_3 = [
+const taxaDependentes_3 = [
     0.0,
     0.0,
     0.0,
@@ -139,9 +136,7 @@ const taxaDeficienteDependentes_3 = [
 
 
 
-//Taxas Não casado Deficiente 4 Dependentes
-
-const taxaDeficienteDependentes_4 = [
+const taxaDependentes_4 = [
     0.0,
     0.0,
     0.0,
@@ -174,9 +169,9 @@ const taxaDeficienteDependentes_4 = [
 
 ];
 
-//Taxas Não casado Deficiente 5 Dependentes ou Mais
 
-const taxaDeficienteDependentes_5mais = [
+
+const taxaDependentes_5mais = [
     0.0,
     0.0,
     0.0,
@@ -238,10 +233,10 @@ function calcularSalario() {
     let taxa;
     let totalSalario;
 
-    // Deficiente Não Casado 0 Dependentes
+    //  0 Dependentes
 
     if (dependentes == 0) {
-        taxa = taxaDeficienteDependentes_0;
+        taxa = taxaDependentes_0;
         console.log("0 dependentes");
 
         if (salario <= 1650) {
@@ -390,8 +385,10 @@ function calcularSalario() {
                     (salario - salario * 0.11 - salario * taxa[29] * 0.01) * 100
                 ) / 100;
         }
+
+        //1 Dependente
     } else if (dependentes == 1) {
-        taxa = taxaDeficienteDependentes_1;
+        taxa = taxaDependentes_1;
         console.log("1 dependente");
         if (salario <= 1650) {
             totalSalario =
@@ -539,8 +536,9 @@ function calcularSalario() {
                     (salario - salario * 0.11 - salario * taxa[29] * 0.01) * 100
                 ) / 100;
         }
+        //2 Dependentes
     } else if (dependentes == 2) {
-        taxa = taxaDeficienteDependentes_2;
+        taxa = taxaDependentes_2;
         console.log("2 dependentes");
         if (salario <= 1650) {
             totalSalario =
@@ -688,8 +686,9 @@ function calcularSalario() {
                     (salario - salario * 0.11 - salario * taxa[29] * 0.01) * 100
                 ) / 100;
         }
+        //3 Dependentes
     } else if (dependentes == 3) {
-        taxa = taxaDeficienteDependentes_3;
+        taxa = taxaDependentes_3;
         console.log("3 dependentes");
         if (salario <= 1650) {
             totalSalario =
@@ -837,8 +836,9 @@ function calcularSalario() {
                     (salario - salario * 0.11 - salario * taxa[29] * 0.01) * 100
                 ) / 100;
         }
+        //4 Dependentes
     } else if (dependentes == 4) {
-        taxa = taxaDeficienteDependentes_4;
+        taxa = taxaDependentes_4;
         console.log("4 dependente");
         if (salario <= 1650) {
             totalSalario =
@@ -986,8 +986,9 @@ function calcularSalario() {
                     (salario - salario * 0.11 - salario * taxa[29] * 0.01) * 100
                 ) / 100;
         }
+        //5 Dependentes
     } else if (dependentes >= 5) {
-        taxa = taxaDeficienteDependentes_5mais;
+        taxa = taxaDependentes_5mais;
         console.log("5+ dependentes");
         if (salario <= 1650) {
             totalSalario =
