@@ -91,13 +91,25 @@ input[type="number"] {
   align-items: center;
   justify-content: center;
   position: relative;
-  top:80px;
+  top:20px;
+  width:40%;
 }
 
 .fa-home {
   color: #fff;
+  position: relative;
+  right: -120px;
+
 
 }
+
+.fa-arrow-left{
+  color:#fff;
+  position: relative;
+  left: -120px;
+
+}
+
 
 @media only screen and (max-width: 833px) {
 
@@ -116,6 +128,6 @@ input[type="number"] {
     align-items: center;
     justify-content: center;
     position: relative;
-    top:50px;
+    top:20px;
   }
 }

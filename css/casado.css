@@ -56,18 +56,22 @@ h1{
   align-items: center;
   justify-content: center;
   position: relative;
-  top:-80px;
+  top:20px;
+  width:40%;
 }
 
 .fa-home {
   color: #fff;
-  margin:100px;
+  position: relative;
+  right: -120px;
+
 
 }
 
 .fa-arrow-left{
   color:#fff;
-  margin:100px;
+  position: relative;
+  left: -120px;
 
 }
 
@@ -83,6 +87,11 @@ h1{
      
       width: 70%;
    
+    }
+
+    .home{
+      
+      width:70%;
     }
 
   }
